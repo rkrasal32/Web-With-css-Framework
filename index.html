@@ -9,86 +9,220 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>Hello, world!</title>
 </head>
 
 <body>
-    <!------
+    <header>
+        <!------
          navber-Start
               ---------- -->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
-            <div class="container-fluid">
-                <a class="navbar-brand fs-2" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                        <li class="nav-item px-3">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <button class="btn btn-outline-success fs-6 text-primary" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <!------
-         navber-End
-              ---------- -->
-    <div class="container">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active text-center">
-                    <img src="/images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block ">
-                    <h1 class="fs-1">Get Started Digital Learning</h1>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    <button>
-                        
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
+                <div class="container-fluid">
+                    <a class="navbar-brand fs-2" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                            <li class="nav-item px-3">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button class="btn btn-outline-success fs-6 text-primary" type="submit">Search</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+            </nav>
+        </div>
+        <!------
+                 navber-End
+                      ---------- -->
+
+        <!-- baner start -->
+        <div class="container d-block ">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner align-items-center">
+                    <div class="carousel-item active text-center">
+                        <img src="/images/cover/cover-1.png" class="d-block w-100 " alt="...">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <p class="fs-1">Get Started Digital <br> Learning</p>
+                            <p>It is a long established fact that a reader will be distracted <br> by the readable
+                                content of a page when looking at its layout.</p>
+                            <button type="button" class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    </div>
+        <!-- baner start -->
+    </header>
+    <main class="m-0 p-0">
+        <div class="container">
+            <div class="m-5 text-center text-align-center">
+                <h2>Discover Our Popular <br> Courses</h2>
+                <p>
+                    It is a long established fact that a reader will be distracted by the <br> readable content of a
+                    page when looking at its layout.
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row g-3 ">
+                <div class="col-lg-6 col-md-12 col-sm-12 p-6 border rounded d-flex ">
+                    <div class="col-sm-4">
+                        <img src="/images/course/course-1.png" class="img-fluid rounded float-start" alt="">
+                    </div>
+                    <div class="col-8 align-center">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>sit amet consectetur adipisicing elit. Dolore repellendus necessitatibus rem quaerat.</p>
+                        <h3 class="text-primary">$250</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 border rounded d-flex">
+                    <div class="col-sm-4">
+                        <img src="/images/course/course-1.png" class="img-fluid rounded float-start" alt="">
+                    </div>
+                    <div class="col-8 align-center">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>sit amet consectetur adipisicing elit. Dolore repellendus necessitatibus rem quaerat.</p>
+                        <h3 class="text-primary">$250</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 border rounded d-flex">
+                    <div class="col-sm-4">
+                        <img src="/images/course/course-1.png" class="img-fluid rounded float-start" alt="">
+                    </div>
+                    <div class="col-8 align-center">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>sit amet consectetur adipisicing elit. Dolore repellendus necessitatibus rem quaerat.</p>
+                        <h3 class="text-primary">$250</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 border rounded d-flex">
+                    <div class="col-sm-4">
+                        <img src="/images/course/course-1.png" class="img-fluid rounded float-start " alt="">
+                    </div>
+                    <div class="col-8 align-center">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>sit amet consectetur adipisicing elit. Dolore repellendus necessitatibus rem quaerat.</p>
+                        <h3 class="text-primary">$250</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 border rounded d-flex">
+                    <div class="col-sm-4">
+                        <img src="/images/course/course-1.png" class="img-fluid rounded float-start" alt="">
+                    </div>
+                    <div class="col-8 align-center">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>sit amet consectetur adipisicing elit. Dolore repellendus necessitatibus rem quaerat.</p>
+                        <h3 class="text-primary">$250</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 border rounded d-flex">
+                    <div class="col-sm-4">
+                        <img src="/images/course/course-1.png" class="img-fluid rounded float-start" alt="">
+                    </div>
+                    <div class="col-8 align-center">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>sit amet consectetur adipisicing elit. Dolore repellendus necessitatibus rem quaerat.</p>
+                        <h3 class="text-primary">$250</h3>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="container text-center m-5">
+                <!-- See More Courses -->
+                <button type="button " class="btn btn-primary">See More Courses</button>
+                <!-- See More Courses -->
+            </div>
+        </div>
+
+
+        <!-- working Start -->
+        <div class="container working-bg">
+            <div class="row align-items-center ">
+                <div class="col-md-6 col-sm-12">
+                    <img class=" img-fluid rounded float-start" src="/images/working.png" alt="">
+                </div>
+                <div class=" working-bg col-md-6 col-sm-12">
+
+                    <div>
+                        <h1>Explore The elearning Institute</h1>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
+                            alterat by iur, or randomised words which don't look even slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
+                        <p>Anything embarrassing of text. All the Lorem Ipsum generators on the
+                            Internet
+                            tend to repeat predefined.</p>
+                    </div>
+                    <div class="d-flex ">
+                        <div class="pe-3">
+                            <h1>3.2K+</h1>
+                            <p>Online Course</p>
+                        </div>
+                        <div class="pe-3">
+                            <h1>600K+</h1>
+                            <p>Expert member</p>
+                        </div>
+                        <div class="pe-3">
+                            <h1>1K+</h1>
+                            <p>Rating & Review</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- working Start -->
+        <div class="container bg-primary d-flex align-items-center p-4">
+            <div>
+                <div class="">
+                    <a class="fs-1 fw-bold text-decoration-none text-white" href="">Ready to join?</a>
+                    <p text-white>It is a long established fact that a <br> reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-light text-primary px-4 py-2">Register Now</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
