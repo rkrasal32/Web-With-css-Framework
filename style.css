@@ -1,7 +1,16 @@
 
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
 .working-bg{
 background-color:#F4FAFD;
 }
 p{
     font-size: 1rem;
+}
+.fa-solid{
+    color: yellow;
+    height: 50px;
 }
