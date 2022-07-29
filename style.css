@@ -14,3 +14,16 @@ p{
     color: yellow;
     height: 50px;
 }
+h1{
+    font-size: 60px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.fa-brands fa-facebook-f{
+    height: 20px;
+}
+.cover{
+    filter: brightness(50%);
+}
